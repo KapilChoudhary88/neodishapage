@@ -43,7 +43,7 @@
 }
 
 .steps-list__item:before {
-    border: 10px solid #F5B393;
+    border: 10px solid #d17141;
     content: "";
     display: block;
     position: absolute;
@@ -59,14 +59,14 @@
 }
 
 .steps-list__item:hover .steps-list__number {
-    color: #4E938E
+    color: #020202
 }
 
 .steps-list__item:hover:before {
-    border-color: #8FC1BB;
-    background: #B5E2DC;
+    border-color: #d0a02b;
+    background: #f6f8f8;
     -webkit-box-shadow: 0px 3px 10px 0px #b5e2dc;
-    box-shadow: 0px 3px 10px 0px #b5e2dc
+    box-shadow: 0px 3px 10px 0px #d8a80a
 }
 
 .steps-list__item:hover .steps-list__desc {
@@ -94,23 +94,32 @@
 }
 
 .steps-list__desc b, .steps-list__desc strong {
-    color: #4E938E
+    color: #d0a02b
 }
 
+
+
+
+
+
+
+/* 
 .heading {
     width: 630px;
     max-width: 100%;
     margin: 0 auto
 }
 
-page-heading__title {
+.page-heading__title {
     font-size: 36px;
-    font-size: 3.6rem
+    font-size: 3.6rem;
+    color:black;
 }
 
 .heading__title {
     font-size: 36px;
-    font-size: 3.6rem
+    font-size: 3.6rem;
+    color:black;
 }
 
 .item__title {
@@ -122,14 +131,16 @@ page-heading__title {
     font-size: 16px;
     font-size: 1.6rem;
     line-height: 26px
-}
-.page-heading--achievements{margin-top:370px}.page-heading__content{width:60%;padding-right:15px}.page-heading__content--full{width:100%;padding-right:8px}.page-heading__image{width:40%;padding-left:15px}.page-heading__image img{max-height:350px}.page-heading__title{font-size:30px;font-size:3rem}.page-heading__desc{margin-top:15px}.page-heading__btn{margin-top:15px}.heading__title{font-size:30px;font-size:3rem}.heading__desc{font-size:16px;font-size:1.6rem;line-height:26px}.heading__btn{margin-top:20px}.why{margin:150px 0 0}.why .item__content{width:60%}.why .item__image{width:40%;padding-left:30px}.item__content{width:60%}.item__image{width:40%}.item__title{font-size:30px;font-size:3rem}.item__title-new{font-size:12px;font-size:1.2rem;right:-5px}.item__desc{font-size:16px;font-size:1.6rem;line-height:26px;margin-top:15px}.item__btn{margin-top:15px}
+} */
+
+
+ /* .page-heading--achievements{margin-top:370px}.page-heading__content{width:60%;padding-right:15px}.page-heading__content--full{width:100%;padding-right:8px}.page-heading__image{width:40%;padding-left:15px}.page-heading__image img{max-height:350px}.page-heading__title{font-size:30px;font-size:3rem}.page-heading__desc{margin-top:15px}.page-heading__btn{margin-top:15px}.heading__title{font-size:30px;font-size:3rem}.heading__desc{font-size:16px;font-size:1.6rem;line-height:26px}.heading__btn{margin-top:20px}.why{margin:150px 0 0}.why .item__content{width:60%}.why .item__image{width:40%;padding-left:30px}.item__content{width:60%}.item__image{width:40%}.item__title{font-size:30px;font-size:3rem}.item__title-new{font-size:12px;font-size:1.2rem;right:-5px}.item__desc{font-size:16px;font-size:1.6rem;line-height:26px;margin-top:15px}.item__btn{margin-top:15px}
 
 .page-heading--achievements{margin-top:310px}.page-heading--resources{padding-top:220px}.page-heading__content{width:55%;padding-right:15px}.page-heading__content--full{width:100%;padding-right:8px}.page-heading__image{width:45%;padding-left:15px}.page-heading__image img{max-height:350px}.page-heading__title{font-size:24px;font-size:2.4rem}.page-heading__desc{margin-top:15px}.page-heading__btn{margin-top:15px}.heading--default{margin-bottom:60px}.heading__title{font-size:24px;font-size:2.4rem}.heading__desc{font-size:15px;font-size:1.5rem;line-height:24px}.heading__btn{margin-top:20px}.why{margin:150px 0 0}.heading__title{font-size:24px;font-size:2.4rem}.heading__desc{font-size:15px;font-size:1.5rem;line-height:24px}
 
 .heading--default{margin-bottom:60px}.heading__title{font-size:20px;font-size:2rem}.heading__desc{font-size:15px;font-size:1.5rem;line-height:24px}.heading__btn{margin-top:20px}
 
 
-.steps{margin-top:100px;padding:0}
+.steps{margin-top:100px;padding:0}  */
 
 

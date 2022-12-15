@@ -4,9 +4,9 @@ import "./HowitWork.css";
 function HowitWork() {
   return (
     <div className=" howitwork" style={{paddingBottom:"130px"}}>
-    <article className="steps"   >
+    <article className="steps" >
       <header className="heading" >
-        <h2 className="heading__title" style={{ fontFamily:"Poppins , sans-serif" ,  color:"#8FC1BB" ,  fontSize:"30px" , fontWeight:"20px"}}>How does it work?</h2>
+        <h2 className="heading__title" style={{ fontFamily:"Poppins , sans-serif" ,color:"black" ,fontSize:"30px" , fontWeight:"20px"}}>How does it work?</h2>
       </header>
       <ul className="steps-list" >
         <li className="steps-list__item animated fadeIn" id="step1" >

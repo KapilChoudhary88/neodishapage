@@ -1,10 +1,11 @@
 import React, { useState } from 'react';
 import { useRef } from 'react';
+import "./NewFeature.css";
 
 export const NewFeature = () => {
   return (
     <>
-      <p className='heading1'>What We Detect</p>
+      <p className='heading1' >What We Detect</p>
       <div className="outerCont">
     
         <div className="container-senti">

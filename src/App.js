@@ -9,6 +9,9 @@ import Style from './Components/Style';
 import './App.css';
 import { NewFeature } from './Components/NewFeature';
 import HowitWork from './Components/HowitWork';
+import Neometry from './Components/Neometry';
+import Neophyte from './Components/Neophyte';
+
 
 function App() {
   return (
@@ -17,9 +20,11 @@ function App() {
       <Style/>
       <NewFeature></NewFeature>
       <HowitWork/>
-      <Feature />
+      <Neometry/>
+      <Neophyte/>
+      
 
-
+      {/* <Feature /> */}
       {/* <div class="test">
         <About image={aboutimage} title="Store Auditing" button="More" />
         <About image={aboutimage1} title="Self Monitoring" button="More" />

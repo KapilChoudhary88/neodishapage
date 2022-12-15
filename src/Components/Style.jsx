@@ -29,7 +29,7 @@ const BackOfCard = ({ children }) => (
 
 const FlipCard = ({ variant = 'hover', frontOfCard, backOfCard }) => {
   return (
-    <flip-card variant={variant} style={{ height: '100%' }}>
+    <flip-card variant={variant} style={{ height: '100%' , width: '100%' }}>
       <div slot="front">{frontOfCard}</div>
       <div slot="back">{backOfCard}</div>
     </flip-card>
@@ -56,7 +56,7 @@ const Cards = () => {
           <BackOfCard>
             <div className="flip-card-back">
 
-              <h3>Page Auditing</h3>
+              <h3>Store Auditing</h3>
               <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nihil et unde quia animi amet veniam?
               Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nihil et unde quia animi amet veniam?
               Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nihil et unde quia animi amet veniam?</p>
@@ -78,7 +78,7 @@ const Cards = () => {
         backOfCard={
           <BackOfCard>
             <div className="flip-card-back">
-            <h3>Page Monitoring</h3>
+            <h3>Store Monitoring</h3>
               <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nihil et unde quia animi amet veniam?
               Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nihil et unde quia animi amet veniam?
               Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nihil et unde quia animi amet veniam?</p>

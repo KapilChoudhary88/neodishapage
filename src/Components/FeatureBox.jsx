@@ -1,4 +1,5 @@
-import React from 'react'
+import React from 'react';
+
 
 
 
@@ -11,8 +12,8 @@ function FeatureBox(props) {
 
         <div className='s-b-text'>
             <h2>{props.title}</h2>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Repudiandae ratione assumenda dignissimos!</p>
-
+            <p>{props.paragraph}</p>
+   
         </div>
 
     </div>
