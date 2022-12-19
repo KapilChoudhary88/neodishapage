@@ -5,9 +5,9 @@ export default styled.div`
   justify-content: center;
   align-items: center;
   height: 500px;
-  width: 90%;
+  width: 100%;
   // background: yellow;
-  margin: 0 15px;
-  font-size: 15px;
+  margin: 0 10px;
+  font-size: 10px;
 
 `;

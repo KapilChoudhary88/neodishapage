@@ -10,7 +10,7 @@ import './App.css';
 import { NewFeature } from './Components/NewFeature';
 import HowitWork from './Components/HowitWork';
 import Neometry from './Components/Neometry';
-import Neophyte from './Components/Neophyte';
+import Slider from './Components/Slider'
 
 
 function App() {
@@ -20,10 +20,9 @@ function App() {
       <Style/>
       <NewFeature></NewFeature>
       <HowitWork/>
-      <Neometry/>
-      <Neophyte/>
-      
+      <Slider/>
 
+      {/* <Neometry/> */}
       {/* <Feature /> */}
       {/* <div class="test">
         <About image={aboutimage} title="Store Auditing" button="More" />
