@@ -11,24 +11,30 @@ import { NewFeature } from './Components/NewFeature';
 import HowitWork from './Components/HowitWork';
 import Neometry from './Components/Neometry';
 import Slider from './Components/Slider'
-
+import FeaturedBox from './Components/FeaturedBox';
+import Second_Monitor from './Components/Second_Monitor';
 
 function App() {
   return (
     <div class="App">
       <Header />
+      <Feature />
+      <Second_Monitor/>
       <Style/>
       <NewFeature></NewFeature>
       <HowitWork/>
-      <Slider/>
+      <FeaturedBox/>
+      
 
-      {/* <Neometry/> */}
-      {/* <Feature /> */}
-      {/* <div class="test">
+      {/* <Slider/> */}
+      {/* <Neometry/>  */}
+     {/* <div class="test">
         <About image={aboutimage} title="Store Auditing" button="More" />
         <About image={aboutimage1} title="Self Monitoring" button="More" />
-      </div> */}
+      </div>  */}
       {/* <Cards /> */}
+
+
     </div>
   );
 }

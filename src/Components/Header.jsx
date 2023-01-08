@@ -1,5 +1,6 @@
 import React from "react";
 import Navbar from "./Navbar";
+import dashboard from '../images/neodisha_mobile.jpeg'
 
 function Header() {
   return (
@@ -7,17 +8,27 @@ function Header() {
       {/* <Navbar /> */}
       <div className="name">
         <h1>
-          <span>Disha App Content</span>
+          <span>NeoDisha</span>
         </h1>
-        <p>
-          Lorem ipsum dolor sit amet consectetur, adipisicing elit. Molestias
-          consequuntur facilis minima id cupiditate autem labore natus, minus
-          dolorum repudiandae laboriosam voluptas facere! Quod, cum. Lorem ipsum
-          dolor sit amet consectetur adipisicing elit. Rem quae labore autem.
-          Quasi, voluptas tempore facilis voluptates praesentium deserunt, iure
-          totam consequuntur corporis maxime rem.
-        </p>
-        <a href="#" className="cv-btn">Read More</a>
+        <h3>
+          State of the art Shelf-fullness analysis platform.  
+        </h3>
+        
+        <p>00
+          Worried about how your stores are performing at this
+          <br/> moment? Or Want to quickly analyse the live status of all
+          <br/> your stores in a few easy
+          steps?
+           <p  style={{color:"black"}}>If yes, then DIShA is here to make your life easy! </p>
+           
+        </p>  
+        <a href="#" className="cv-btn">
+          Read More
+        </a>
+        
+      </div>
+      <div className="image">
+      <img src={dashboard} alt=""/>
       </div>
     </div>
   );

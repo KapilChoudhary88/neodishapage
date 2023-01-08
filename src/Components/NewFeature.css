@@ -32,7 +32,7 @@
   
   p.senti-card-txt {
     color: #fff;
-    font-size: 28px;
+    font-size: 20px;
     margin-top: 5px;
     font-family: 'Poppins', sans-serif;
   }
@@ -74,6 +74,7 @@
     box-sizing: border-box;
     transition: 0.8s;
     transform: translateY(-100px);
+    /* background-color: rgb(139, 62, 62); */
     box-shadow: 0 20px 40px rgba(194, 157, 157, 0.9);
   }
   

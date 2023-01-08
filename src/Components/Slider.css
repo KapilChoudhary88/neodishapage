@@ -12,6 +12,7 @@
 
   .neometry_div_1{
     height: 112vh;
+    /* background-color: #d0a02b; */
   }
   .explore-next-div{
     display: block;
@@ -46,6 +47,7 @@
     -o-background-size: cover;
     background-size: cover;
    background: url("https://static.licdn.com/sc/h/244xhbkr7g40x6bsu4gi6q4ry"); 
+   background-color: #d0a02b;
   }
 
   .neomet-second-right-cards{
@@ -86,7 +88,7 @@
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
-     background: url("https://static.licdn.com/sc/h/244xhbkr7g40x6bsu4gi6q4ry"); 
+     /* background: url("https://static.licdn.com/sc/h/244xhbkr7g40x6bsu4gi6q4ry");  */
   }
   
   .why-us-neo {
@@ -97,7 +99,7 @@
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
-    background: url("https://static.licdn.com/sc/h/244xhbkr7g40x6bsu4gi6q4ry");
+    /* background: url("https://static.licdn.com/sc/h/244xhbkr7g40x6bsu4gi6q4ry"); */
   }
 
 
@@ -217,7 +219,7 @@
     height: 112vh;
     background-repeat: no-repeat, repeat;
     background-position: right top;
-     background: url("https://static.licdn.com/sc/h/244xhbkr7g40x6bsu4gi6q4ry");
+     /* background: url("https://static.licdn.com/sc/h/244xhbkr7g40x6bsu4gi6q4ry"); */
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -238,7 +240,8 @@
 
   .row{
     display: flex;
-    
+    height: 700px;
+    background-color:#d0a02b
   }
 
   .horizon{
@@ -246,7 +249,10 @@
     width:75%;
   }
 .cursuelcark{
-  width: -webkit-fill-available;}
+  width: -webkit-fill-available;
+  /* background-color: aqua; */
+  height: 700px;
+}
   .rec-swipable{
     margin-top: 100px;
   }
@@ -256,3 +262,5 @@
   .a-box{
     height:390px;
   }
+
+  

@@ -64,26 +64,33 @@ bodyy{
 
 .textt{
     text-align: center;
-    height: 50%;
-    background-color: #d0a02b;
     padding-bottom: 5px;
     font-size: 20px;
     margin-top: 10px;
+    background-color: #e0c579;
+    
+    /* background-image: url("https://img.freepik.com/free-photo/abstract-smooth-dark-blue-with-black-vignette-studio-well-use-as-backgroundbusiness-reportdigitalwebsite-templatebackdrop_1258-108850.jpg?size=626&ext=jpg"); */
+    display: grid;
+    grid-column: auto;
+    
   }
   .flip-card-inner {
-    width: 65%;
+    position: relative;
+    width: 40%;
     height: 500px;
     text-align: center;
     display: grid;
     align-items: center;
     justify-content: center;
-    grid-template-columns: 45% 45%;
-    gap: 2%;
-    margin: 4% 0 4% 0; /*bottom margin*/
-    margin-left:280px;
-    column-gap: 90px;
+    grid-template-columns: 52% 45% 45%;
+    /* column-gap: 90px; */
     border-radius: 12px;
-    box-shadow: 2px 2px 12px rgba(0, 0, 0, 0.2);
+    border: 10px #e2705f;
+    margin: 4% 0 4% 0; /*bottom margin */
+    margin-left:350px; 
+   padding-top: 70px;
+     gap: 25%;
+    /* box-shadow: 2px 2px 12px rgba(0, 0, 0, 0.2); */
     
   }
   
@@ -96,20 +103,21 @@ bodyy{
   }
   .flip-card-front {
   
-    background-image: linear-gradient(45deg, #f6f8f6, #e4d4e2);
-    height: 550px;
-    border-radius: 18px;
+    background-image: linear-gradient(585deg, #3db5d3, #ddd346);
+    
+    border-radius: 8px;
+    /* background: rgb(128, 179, 196); */
+      
   }
   
   .flip-card-front img {
-    width: 500px;
-    height: 500px;
-    border-radius: 20px;
-    
-  }
+    width: 372px;
+    height: 466px;
+    border-radius: 10px;
+    }
   
   .flip-card-back {
-    /* background-image: linear-gradient(315deg, #d4c9df, #52414c); */
+    background-image: linear-gradient(585deg, #f6f8f6, #e4d4e2);
     color: #f0f0f0;
     height: 550px;
 
@@ -120,20 +128,25 @@ bodyy{
   }
   .flip-card-back h3 {
     color: #070808;
-    margin-top: -20px;
+    /* margin-top: -20px; */
     text-shadow: #0a0c0c;
     font-weight: bold;
-    font-size: 25px;
+    font-size: 15px;
     
   
   }
+  .bring{
+    margin-top: 45px;
+    font-size: 20px;
+   
+  }
   
-  .flip-card-back p {
+   .para1 {
     margin: 10px;
     font-size: 20px;
     word-spacing: 0.5px;
     padding: 30px;
-    color:#d0a02b;
+    color:#050505;
   }
   
   :root {
@@ -142,4 +155,21 @@ bodyy{
   
   .card {
     height: var(--flip-card-height);
+    border: none;
+    
+    /* background-color: rgb(27, 32, 32); */
   }
+
+  .paraa {
+    margin: auto;
+    font-size: 15px;
+    /* word-spacing: 0.5px; */
+    padding: 20px;
+    color:#252524;
+  }
+
+ .outside_text{
+
+   font-size: 20px;
+   text-align: left;
+ }

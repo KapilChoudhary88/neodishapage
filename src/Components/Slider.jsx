@@ -36,7 +36,11 @@ function Slider() {
       <div className="why-us-neo">
         <Row className="row">
           <Col md={4} sm={4} xs={4}>
-            <div className="neometry_div_1">
+            <div className="neometry_div_1"  style={{
+      // backgroundColor: 'red',
+      // height: '100%',
+    }}>
+              
               <center>
                 <div class="box-neometry-1">
                   <div className="box-neometry-1-inner">
@@ -159,26 +163,21 @@ function Slider() {
                 </div>
               </Carousel> */}
 
-<Carousel itemsToShow={3}>
+<Carousel itemsToShow={3}  style={{color:"red"}} >
         
         <Item className="item1">
-          <FeatureBox image = {featureimage} title = "Missing Product"  paragraph ="sit amet consectetur adipisicing elit"/>
+          <FeatureBox image = {featureimage} title = " Reports"  paragraph ="Stock consumption reports "/>
           </Item>
         <Item className="item2">
-          <FeatureBox image = {featureimage} title = "Missing Product"  paragraph ="sit amet consectetur adipisicing elit" />
+          <FeatureBox image = {featureimage} title = "Clues"  paragraph ="Business execution clues" />
           </Item>
         <Item className="item3">
-          <FeatureBox image = {featureimage} title = "Missing Product" paragraph ="sit amet consectetur adipisicing elit" />
+          <FeatureBox image = {featureimage} title = "Distribution" paragraph ="Distribute your stock in the most optimum way. " />
           </Item>
         <Item className="item4">
-          <FeatureBox image = {featureimage} title = "Missing Product" paragraph ="sit amet consectetur adipisicing elit" />
+          <FeatureBox image = {featureimage} title = "" paragraph ="Where is the need to distribute the remaining of your stock?" />
           </Item>
-        <Item className="item5">
-          <FeatureBox image = {featureimage} title = "Missing Product"  paragraph ="sit amet consectetur adipisicing elit" />
-          </Item>
-        <Item className="item6">
-          <FeatureBox image = {featureimage} title = "Missing Product" paragraph ="sit amet consectetur adipisicing elit" />
-          </Item>
+        
         
       </Carousel>
              
@@ -186,6 +185,8 @@ function Slider() {
           </Col>
         </Row>
       </div>
+      
+
       
     </div>                                                                           
   

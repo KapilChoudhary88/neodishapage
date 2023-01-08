@@ -12,24 +12,24 @@ export const NewFeature = () => {
           <div className="card-senti">
             <div className="slide slide1">
               <div className="content-senti">
-                <div className="icon">
+                <div className="icon"
+                style={{"margin": "1px", "backgroundColor": "#e2705f" }}
+                >
                   <center>
                    
-                    {/* <img
-                    src="	data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAgAA…p4LZK08Bwkj/VbyN8qh+zWNEhnKXkbAAAAABJRU5ErkJggg=="
-                    style="height: 70px; width: 70px; margin-top: 15%;"
-                    alt=""
-                  /> */}
-                    <p className="senti-card-txt">Search</p>
+                   <img
+                    src="https://cdn-icons-png.flaticon.com/128/6297/6297920.png"
+                 
+                  /> 
+                    <p className="senti-card-txt">Live statistics</p>
                   </center>
                 </div>
               </div>
             </div>
             <div className="slide slide2">
               <div className="content-senti">
-                <p>Natureal</p>
-                <p>Natureal</p>
-                <p>Natureal</p>
+                <p> On demand analysis reports</p>
+                
               </div>
             </div>
           </div>
@@ -38,23 +38,22 @@ export const NewFeature = () => {
           <div className="card-senti">
             <div className="slide slide1">
               <div className="content-senti">
-                <div className="icon">
+                <div className="icon" style={{"margin": "1px", "backgroundColor": "#4aada9" }} >
                   <center>
-                    {/* <img
-                    src="	data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAgAA…p4LZK08Bwkj/VbyN8qh+zWNEhnKXkbAAAAABJRU5ErkJggg=="
-                    style="height: 70px; width: 70px; margin-top: 15%;"
+                    <img
+                    src="https://cdn-icons-png.flaticon.com/128/8833/8833005.png"
+                    style={{"margin": "1px", "padding": "5px" , "height": "150px" , "width": "160px"}}
                     alt=""
-                  /> */}
-                    <p className="senti-card-txt">Search</p>
+                  />
+                    <p className="senti-card-txt">Out of stock items</p>
                   </center>
                 </div>
               </div>
             </div>
             <div className="slide slide2">
               <div className="content-senti">
-                <p>Natureal</p>
-                <p>Natureal</p>
-                <p>Natureal</p>
+                <p> Real-time alerts of missing items </p>
+                
               </div>
             </div>
           </div>
@@ -63,23 +62,24 @@ export const NewFeature = () => {
           <div className="card-senti">
             <div className="slide slide1">
               <div className="content-senti">
-                <div className="icon">
+                <div className="icon"
+                style={{"margin": "1px", "backgroundColor": "#6eadd4" }}
+                >
                   <center>
-                    {/* <img
-                    src="	data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAgAA…p4LZK08Bwkj/VbyN8qh+zWNEhnKXkbAAAAABJRU5ErkJggg=="
-                    style="height: 70px; width: 70px; margin-top: 15%;"
-                    alt=""
-                  /> */}
-                    <p className="senti-card-txt">Search</p>
+                   <img
+                    src="	https://cdn-icons-png.flaticon.com/128/1237/1237725.png"
+                    style={{"margin": "1px", "padding": "5px" , "height": "140px" , "width": "150px"}}
+                    
+                  /> 
+                    <p className="senti-card-txt">Brand-wise Shelf share</p>
                   </center>
                 </div>
               </div>
             </div>
             <div className="slide slide2">
               <div className="content-senti">
-                <p>Natureal</p>
-                <p>Natureal</p>
-                <p>Natureal</p>
+                <p> Ranking of the brands on shelf</p>
+                
               </div>
             </div>
           </div>
@@ -92,21 +92,19 @@ export const NewFeature = () => {
               <div className="content-senti">
                 <div className="icon">
                   <center>
-                    {/* <img
-                    src="	data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAgAA…p4LZK08Bwkj/VbyN8qh+zWNEhnKXkbAAAAABJRU5ErkJggg=="
-                    style="height: 70px; width: 70px; margin-top: 15%;"
-                    alt=""
-                  /> */}
-                    <p className="senti-card-txt">Search</p>
+                   <img
+                    src="	https://cdn-icons-png.flaticon.com/128/1702/1702496.png"
+                    
+                  /> 
+                    <p className="senti-card-txt">Planogram compliance</p>
                   </center>
                 </div>
               </div>
             </div>
             <div className="slide slide2">
               <div className="content-senti">
-                <p>Natureal</p>
-                <p>Natureal</p>
-                <p>Natureal</p>
+                <p>  Ensuring optimal shelf planogram</p>
+                
               </div>
             </div>
           </div>
@@ -117,21 +115,20 @@ export const NewFeature = () => {
               <div className="content-senti">
                 <div className="icon">
                   <center>
-                    {/* <img
-                    src="	data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAgAA…p4LZK08Bwkj/VbyN8qh+zWNEhnKXkbAAAAABJRU5ErkJggg=="
-                    style="height: 70px; width: 70px; margin-top: 15%;"
-                    alt=""
-                  /> */}
-                    <p className="senti-card-txt">Search</p>
+                   <img
+                    src="	https://cdn-icons-png.flaticon.com/128/3566/3566336.png"
+                    style={{"margin": "1px", "padding": "5px" , "height": "140px" , "width": "150px"}}
+                    
+                  /> 
+                    <p className="senti-card-txt">On-shelf SKU Listing</p>
                   </center>
                 </div>
               </div>
             </div>
             <div className="slide slide2">
               <div className="content-senti">
-                <p>Natureal</p>
-                <p>Natureal</p>
-                <p>Natureal</p>
+                <p> SKU counts & status on demand</p>
+               
               </div>
             </div>
           </div>
@@ -142,11 +139,11 @@ export const NewFeature = () => {
               <div className="content-senti">
                 <div className="icon">
                   <center>
-                    {/* <img
-                    src="	data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAgAA…p4LZK08Bwkj/VbyN8qh+zWNEhnKXkbAAAAABJRU5ErkJggg=="
-                    style="height: 70px; width: 70px; margin-top: 15%;"
-                    alt=""
-                  /> */}
+                  <img
+                    src="	https://cdn-icons-png.flaticon.com/128/4047/4047714.png"
+                    style={{"margin": "1px", "padding": "5px" , "height": "140px" , "width": "150px"}}
+                    
+                  /> 
                     <p className="senti-card-txt">Search</p>
                   </center>
                 </div>
