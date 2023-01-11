@@ -19,13 +19,13 @@ function App() {
     <div class="App">
       <Header />
       <Feature />
-      <Second_Monitor/>
-      <Style/>
-      <NewFeature></NewFeature>
       <HowitWork/>
+      <Second_Monitor/>
+      <NewFeature></NewFeature>
       <FeaturedBox/>
       
 
+      {/* <Style/> */}
       {/* <Slider/> */}
       {/* <Neometry/>  */}
      {/* <div class="test">

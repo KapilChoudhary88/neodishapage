@@ -3,7 +3,7 @@
 body {
   margin: 0px;
   padding: 0px;
-  background-color: #e6e1e1;
+  /* background-color: #e6e1e1; */
   overflow-x: hidden;
   font-family: "Poppins", sans-serif;
 }
@@ -37,7 +37,7 @@ input {
   background-position-x: 95%;
   display: grid;
   grid-template-columns: repeat(3, 1fr);
-  background-image:url("images/dashboard.jpg"); 
+  background-image:url("images/webdash3.png "); 
 }
 nav {
   display: flex;
@@ -102,10 +102,10 @@ display: grid;
 /* grid-template-columns: repeat(1, 1fr); */
 align-items: center;
 justify-items: flex-end;
-margin-left: 480px;
-margin-top: 150px;
-height: 400px;
-width: 145px;
+margin-left: 260px;
+margin-top: 0px;
+/* height: 1200px; */
+width: 600px;
 }
 .name span {
   color:#000000;
@@ -126,23 +126,26 @@ width: 145px;
   font-size: 15px;
 }
 .name p{
-  color: #d0a02b;
+  /* color: #d0a02b; */
   font-weight: bold;
   font-size: 13px;
+  line-height: 1.5rem;
+    height: 120px;
+
 }
 .header-btns {
   display: flex;
   margin-top: 40px;
 }
 .cv-btn {
-  width: 110px;
+  width: 150px;
   height: 40px;
   display: flex;
   justify-content: center;
   align-items: center;
   background-color: #d0a02b;
   /* box-shadow: 5px 10px 30px rgba(2, 238, 255, 0.336); */
-  /* border-radius: 10px; */
+  border-radius: 10px;
   color: #ffffff;
 }
 .cv-btn:hover {
@@ -981,10 +984,8 @@ width: 145px;
   display: block;
   overflow: visible;
   margin-bottom: 80px;
-  margin-top: 80px;
   margin-left: 0;
-  padding-right: 20px;
-  padding-left: 20px;
+ 
   clear: none;
   background-color: transparent;
   color: #333;
@@ -1182,4 +1183,14 @@ img {
   /* -webkit-flex-direction: row-reverse;
   -ms-flex-direction: row-reverse; */
   flex-direction: row-reverse;
+}
+
+.fline{
+  display: grid;
+  grid-template-columns: 30% 80%;
+  margin-top: 50px;
+  gap: -15%;
+  background-image:url("images/geometric.png");
+  /* background-image:url("images/dashboard.jpg");  */
+ height: max-content;
 }

@@ -14,10 +14,14 @@
   display: flex;          
   flex-direction: column;
   justify-content: center;
+  margin-top: 370px;
+  height: 20px;
+  width: 60px;
 }
 .solution_cards_box .solution_card {
   flex: 0 50%;
-  background: #fff;
+  background: 
+  #a1dad3;
   box-shadow: 0 2px 4px 0 rgba(136, 144, 195, 0.2),
     0 5px 15px 0 rgba(37, 44, 97, 0.15);
   border-radius: 15px;
@@ -69,7 +73,7 @@
 
 .solution_card .solu_title h3 {
   color: #212121;
-  font-size: 1.3rem;
+  font-size: 1.1rem;
   margin-top: 13px;
   margin-bottom: 13px;
 }
@@ -122,8 +126,8 @@
 }
 
 .solution_cards_box .solution_card .so_top_icon {
-  width: 120px;
-  height: 120px;
+  width: 80px;
+  height: 80px;
   border-radius: 50%;
   background: #fff;
   overflow: hidden;
@@ -187,6 +191,12 @@
   margin-left: 50px;
   margin-top: 250px;
   font-size:20px;
+  width: 500px;
+  color: #0a0a0a;
+  font-size: 23px;
+  line-height: 2.0;
+  font-weight: 600;
+  
 } 
 
 .fline{
@@ -194,7 +204,9 @@
   grid-template-columns: 30% 80%;
   margin-top: 50px;
   gap: -15%;
- 
+  /* background-image:url("images/geometric.png"); */
+  /* background-image:url("images/dashboard.jpg");  */
+ height: max-content;
 }
 
 /*-----------------------------------------2----------------------------*/

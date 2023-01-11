@@ -1,36 +1,58 @@
-import React from "react";
+import React, { useEffect, useState } from 'react';
+import AOS from 'aos';
+import 'aos/dist/aos.css';
+import video from '../images/animation2.mp4'
+
+
 
 function Second_Monitor() {
+
+  useEffect(() =>{
+    AOS.init({duration:2000});
+  },[]);
+
   return (
     <div>
+      
+      
       <div class="pagesection">
         <div class="pagecontainer">
           <div class="featuresummary featuresummary--reversed">
-            <div class="featuresummary-column featuresummary-personaimage">
-              <img
-                src="https://assets-global.website-files.com/5af97a9c84ec1bc79d81b5f4/5b44330a6c5dba54a973c215_home_marketer.png"
-                width="551"
-                alt="Illustration of marketer reviewing a split test"
-                sizes="(max-width: 479px) 100vw, (max-width: 767px) 75vw, (max-width: 991px) 42vw, 44vw"
-                srcset="https://assets-global.website-files.com/5af97a9c84ec1bc79d81b5f4/5b44330a6c5dba54a973c215_home_marketer-p-500.png 500w, https://assets-global.website-files.com/5af97a9c84ec1bc79d81b5f4/5b44330a6c5dba54a973c215_home_marketer-p-800.png 800w, https://assets-global.website-files.com/5af97a9c84ec1bc79d81b5f4/5b44330a6c5dba54a973c215_home_marketer.png 1102w"
-                class="personaillustration"
-              />
+            <div class="featuresummary-column featuresummary-personaimage" data-aos="fade-down-left">
+              
+              <video width="580" height="410" loop muted autoPlay="autoplay">
+              <source src={video} type="video/mp4"/>
+               <source src="movie.ogg" type="video/ogg"
+              //  style={{"marginLeft": "500px"}}
+               />
+              Your browser does not support the video tag.
+                  </video>
+                
             </div>
-            <div class="featuresummary-column">
+            <div class="featuresummary-column"
+            style={{"marginLeft": "70px" }}>
               <div class="featuresummary-text">
-                <div class="pre-header" />
-                Optimisation for
+                <div class="pre-header" 
+                style={{"marginTop": "60px","marginLeft": "10px" , "fontWeight":"800"}} >
+                
+                </div>
               </div>
-              <h3 class="heading h3 personaheading">Marketers</h3>
-              <div class="text personasubhead">
-                Fine-tune landing pages, messaging, and creative, helping you
-                optimise conversion rates on marketing campaigns and product
-                launches.
+              <h3 class="heading h3 personaheading"data-aos="fade-up-right">Store Monitoring</h3>
+              <div class="text personasubhead" data-aos="fade-up-right"
+              style={{"marginTop": "30px" , "fontWeight":"500"}}>
+                In-store shelves are continuously monitored through the eyes
+                  (Surveillance cameras / mobile application) of DIShA. This
+                  continuos stream of data is pushed to the brain for further
+                  processing. —- As it is intelligently said, "Shelf is full!
+                  Sale is high!" Thus, DIShA continuosly analyses the fullness
+                  of all the monitored shelves.
               </div>
             </div>
+            
           </div>
         </div>
       </div>
+      
     </div>
   );
 }

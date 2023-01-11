@@ -1,9 +1,18 @@
-import React from "react";
+// import React from "react";
 import "./HowitWork.css";
+import React, { useEffect, useState } from 'react';
+import AOS from 'aos';
+import 'aos/dist/aos.css';
 
 function HowitWork() {
+
+  useEffect(() =>{
+    AOS.init({duration:3000});
+  },[]);
+
   return (
-    <div className=" howitwork" style={{ paddingBottom: "130px" }}>
+    <div className=" howitwork"  data-aos="zoom-out-down"
+    style={{ paddingBottom: "130px" }}>
       <article className="steps">
         <header className="heading">
           <h2

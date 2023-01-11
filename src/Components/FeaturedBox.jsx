@@ -1,30 +1,31 @@
-import React from "react";
+
+import React, { useEffect, useState } from 'react';
 import "./FeaturedBox.css";
+import AOS from 'aos';
+import 'aos/dist/aos.css'; 
+
 
 function FeaturedBox() {
+
+  useEffect(() =>{
+    AOS.init({duration:2000});
+  },[]);
+
   return (
     <div>
       <div className = "fline">
-      <p className="parag">
+      <p className="parag" data-aos="slide-right">
               {" "}
               Feature BOX <br />
-              Why we are best in our field
-             
-              Why we are best in our field
-              <br/>
-              Why we are best in our field
-             
-              Why we are best in our field
-              <br/>
-               Why we are best in our field
-              <br/> 
+              Feature Boxes construct "featured" tiles of content – highly customizable panes that naturally
+               lend themselves to highlighting, summarizing and leading users to further information. 
             </p>
         <div className="section_our_solution">
           <div className="rowww">
             <div className="col-lg-12 col-md-12 col-sm-12">
               <div className="our_solution_category">
                 <div className="solution_cards_box">
-                  <div className="solution_card">
+                  <div className="solution_card" data-aos="fade-up-right">
                     <div className="hover_color_bubble"></div>
                     <div className="so_top_icon">
                       <img
@@ -50,21 +51,20 @@ function FeaturedBox() {
                     <div className="solu_description">
                       <p>
                         It is a long established fact that a reader will be
-                        distracted by the readable content of a page when
-                        looking at its layout.
+                        distracted by the readable.
                       </p>
-                      <button type="button" className="read_more_btn">
+                      {/* <button type="button" className="read_more_btn">
                         Read More
-                      </button>
+                      </button> */}
                     </div>
                   </div>
-                  <div className="solution_card">
+                  <div className="solution_card"  data-aos="fade-up-right">
                     <div className="hover_color_bubble"></div>
                     <div className="so_top_icon">
                       <img
                         src="https://cdn-icons-png.flaticon.com/128/8833/8833005.png"
                         style={{
-                          margin: "1px",
+                          margin: "px",
                           padding: "5px",
                           height: "150px",
                           width: "160px",
@@ -84,18 +84,17 @@ function FeaturedBox() {
                     <div className="solu_description">
                       <p>
                         It is a long established fact that a reader will be
-                        distracted by the readable content of a page when
-                        looking at its layout.
+                        distracted by the readable.
                       </p>
-                      <button type="button" className="read_more_btn">
+                      {/* <button type="button" className="read_more_btn">
                         Read More
-                      </button>
+                      </button> */}
                     </div>
                   </div>
                 </div>
 
                 <div className="solution_cards_box sol_card_top_3">
-                  <div className="solution_card">
+                  <div className="solution_card"  data-aos="fade-up-left">
                     <div className="hover_color_bubble"></div>
                     <div className="so_top_icon">
                       <img
@@ -121,15 +120,14 @@ function FeaturedBox() {
                     <div className="solu_description">
                       <p>
                         It is a long established fact that a reader will be
-                        distracted by the readable content of a page when
-                        looking at its layout.
+                        distracted by the readable.
                       </p>
-                      <button type="button" className="read_more_btn">
+                      {/* <button type="button" className="read_more_btn">
                         Read More
-                      </button>
+                      </button> */}
                     </div>
                   </div>
-                  <div className="solution_card">
+                  <div className="solution_card"  data-aos="fade-up-left">
                     <div className="hover_color_bubble"></div>
                     <div className="so_top_icon">
                       <img
@@ -155,12 +153,11 @@ function FeaturedBox() {
                     <div className="solu_description">
                       <p>
                         It is a long established fact that a reader will be
-                        distracted by the readable content of a page when
-                        looking at its layout.
+                        distracted by the readable.
                       </p>
-                      <button type="button" className="read_more_btn">
+                      {/* <button type="button" className="read_more_btn">
                         Read More
-                      </button>
+                      </button> */}
                     </div>
                   </div>
                 </div>

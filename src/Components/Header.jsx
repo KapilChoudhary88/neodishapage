@@ -1,10 +1,19 @@
-import React from "react";
+// import React from "react";
 import Navbar from "./Navbar";
-import dashboard from '../images/neodisha_mobile.jpeg'
+import dashboard from '../images/webphoneimage.png'
+import React, { useEffect, useState } from 'react';
+import AOS from 'aos';
+import 'aos/dist/aos.css';
 
 function Header() {
+
+
+  useEffect(() =>{
+    AOS.init({duration:2000});
+  },[]);
+
   return (
-    <div id="main">
+    <div id="main" data-aos="zoom-out-down">
       {/* <Navbar /> */}
       <div className="name">
         <h1>
@@ -23,11 +32,11 @@ function Header() {
            
         </p>  
         <a href="#" className="cv-btn">
-          Read More
+          Scroll Down
         </a>
         
       </div>
-      <div className="image">
+      <div className="image" data-aos="zoom-in-down">
       <img src={dashboard} alt=""/>
       </div>
     </div>
