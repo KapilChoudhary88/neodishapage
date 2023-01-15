@@ -14,6 +14,8 @@ import Slider from './Components/Slider'
 import FeaturedBox from './Components/FeaturedBox';
 import Second_Monitor from './Components/Second_Monitor';
 
+
+
 function App() {
   return (
     <div class="App">

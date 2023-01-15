@@ -1,6 +1,6 @@
 // import React from "react";
 import Navbar from "./Navbar";
-import dashboard from '../images/webphoneimage.png'
+import dashboard from '../images/dummy_video.mp4'
 import React, { useEffect, useState } from 'react';
 import AOS from 'aos';
 import 'aos/dist/aos.css';
@@ -37,7 +37,14 @@ function Header() {
         
       </div>
       <div className="image" data-aos="zoom-in-down">
-      <img src={dashboard} alt=""/>
+      <video width="570" height="450" loop muted autoPlay="autoplay">
+              <source src={dashboard} type="video/mp4"/>
+              
+               <source src="movie.ogg" type="video/ogg"
+               style={{"marginLeft": "501npm px" , "borderRadius":"15px"}}
+               />
+              Your browser does not support the video.
+                  </video>
       </div>
     </div>
   );

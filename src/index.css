@@ -37,7 +37,7 @@ input {
   background-position-x: 95%;
   display: grid;
   grid-template-columns: repeat(3, 1fr);
-  background-image:url("images/webdash3.png "); 
+  /* background-image:url("images/dummy_video.mp4");  */
 }
 nav {
   display: flex;
@@ -91,7 +91,7 @@ nav .menu-btn,
 }
 .name {
   font-family: "Poppins", sans-serif;
-  width:550px;
+  width:600px;
   position: absolute;
   left: 14%;
   top: 50%;
@@ -105,7 +105,7 @@ justify-items: flex-end;
 margin-left: 260px;
 margin-top: 0px;
 /* height: 1200px; */
-width: 600px;
+width: 900px;
 }
 .name span {
   color:#000000;
@@ -120,7 +120,7 @@ width: 600px;
   margin: 0px;
   letter-spacing: 2px;
   color: #d0a02b;
-  padding-bottom: 12px;
+  padding-bottom: 12px;               
 }
 .name h3{
   font-size: 15px;
