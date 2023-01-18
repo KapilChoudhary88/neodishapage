@@ -14,7 +14,7 @@
   display: flex;          
   flex-direction: column;
   justify-content: center;
-  margin-top: 370px;
+  margin-top: 350px;
   height: 20px;
   width: 60px;
 }
@@ -201,13 +201,17 @@
 
 .fline{
   display: grid;
-  grid-template-columns: 30% 80%;
-  margin-top: 50px;
-  gap: -15%;
-  /* background-image:url("images/geometric.png"); */
+  grid-template-columns: 50% 60%;
+  margin-top: 30px;
+  gap: -25%;
+  /* background-image:url("images/geometric.png");  */
   /* background-image:url("images/dashboard.jpg");  */
  height: max-content;
 }
+
+
+
+
 
 /*-----------------------------------------2----------------------------*/
 

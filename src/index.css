@@ -93,7 +93,7 @@ nav .menu-btn,
   font-family: "Poppins", sans-serif;
   width:600px;
   position: absolute;
-  left: 14%;
+  left: 18%;
   top: 50%;
   transform: translate(-22%, -50%);
 }
@@ -102,7 +102,7 @@ display: grid;
 /* grid-template-columns: repeat(1, 1fr); */
 align-items: center;
 justify-items: flex-end;
-margin-left: 260px;
+margin-left: 300px;
 margin-top: 0px;
 /* height: 1200px; */
 width: 900px;
@@ -1190,7 +1190,7 @@ img {
   grid-template-columns: 30% 80%;
   margin-top: 50px;
   gap: -15%;
-  background-image:url("images/geometric.png");
+  /* background-image:url("images/geometric.png"); */
   /* background-image:url("images/dashboard.jpg");  */
  height: max-content;
 }

@@ -1,9 +1,8 @@
-
 import React, { useEffect, useState } from 'react';
 import "./FeaturedBox.css";
 import AOS from 'aos';
 import 'aos/dist/aos.css'; 
-
+import dashboard from '../images/dashboard+mpbile.jpeg'
 
 function FeaturedBox() {
 
@@ -13,13 +12,14 @@ function FeaturedBox() {
 
   return (
     <div>
-      <div className = "fline">
-      <p className="parag" data-aos="slide-right">
-              {" "}
-              Feature BOX <br />
-              Feature Boxes construct "featured" tiles of content – highly customizable panes that naturally
-               lend themselves to highlighting, summarizing and leading users to further information. 
-            </p>
+      <div className = "fline" >
+      
+      <img  className ="dashboard_image" src={dashboard}
+      style={{
+        marginTop: "150px",
+        padding: "35px",
+        }} />
+
         <div className="section_our_solution">
           <div className="rowww">
             <div className="col-lg-12 col-md-12 col-sm-12">

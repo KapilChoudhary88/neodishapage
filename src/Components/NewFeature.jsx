@@ -77,7 +77,7 @@ export const NewFeature = () => {
                 >
                   <center>
                    <img
-                    src="	https://cdn-icons-png.flaticon.com/128/1237/1237725.png"
+                    src="	https://static.thenounproject.com/png/3929574-200.png"
                     style={{"marginTop": "10px", "padding": "px" , "height": "140px" , "width": "150px"}}
                     
                   /> 

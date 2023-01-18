@@ -1,5 +1,5 @@
 import React ,{useState} from 'react';
-import logo from '../images/neophyte.jpg';
+// import logo from '../images/neophyte.jpg';
 
 function Navbar() {
 
@@ -18,7 +18,7 @@ function Navbar() {
   return (
     <nav className={nav ? 'nav active': 'nav'}>
         <a href = '#' className='neophyte'>
-            <img src = {logo} alt=''/>
+            {/* <img src = {logo} alt=''/> */}
         </a>
         <input type= 'checkbox' className ='menu-btn' id='menu-btn'/>
         <label className='menu-icon' for = 'menu-btn'>
