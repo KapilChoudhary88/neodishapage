@@ -1,11 +1,11 @@
 import React from 'react';
 import './App.css';
-import Header from './Components/Header';
-import Feature from './Components/Feature';
-import { NewFeature } from './Components/NewFeature';
-import HowitWork from './Components/HowitWork';
-import FeaturedBox from './Components/FeaturedBox';
-import Second_Monitor from './Components/Second_Monitor';
+import Header from './Neodisha/Header';
+import Feature from './Neodisha/Feature';
+import { NewFeature } from './Neodisha/NewFeature';
+import HowitWork from './Neodisha/HowitWork';
+import FeaturedBox from './Neodisha/FeaturedBox';
+import Second_Monitor from './Neodisha/Second_Monitor';
 
 
 

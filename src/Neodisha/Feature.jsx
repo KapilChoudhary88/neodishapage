@@ -8,7 +8,6 @@ function Feature() {
   useEffect(() =>{
     AOS.init({duration:2000});
   },[]);
-
   return (
     <div>
       <div className="pagesection wf-section"  data-aos="zoom-in-down">

@@ -1,6 +1,5 @@
 import React, { useEffect, useState } from 'react';
 import { useRef } from 'react';
-import "./NewFeature.css";
 import AOS from 'aos';
 import 'aos/dist/aos.css'; 
 
@@ -12,9 +11,9 @@ export const NewFeature = () => {
   
 
   return (
-    <div >
+    <div>
       <p className='heading1' data-aos="fade-down-right">What We Detect</p>
-      <div className="outerCont">
+       <div className="outerCont">
     
         <div className="container-senti" data-aos="slide-right">
           <div className="card-senti">

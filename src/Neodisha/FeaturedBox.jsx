@@ -1,5 +1,4 @@
 import React, { useEffect, useState } from 'react';
-import "./FeaturedBox.css";
 import AOS from 'aos';
 import 'aos/dist/aos.css'; 
 import dashboard from '../images/dashboard+mpbile.jpeg'
