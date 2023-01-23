@@ -8,7 +8,6 @@ import FeaturedBox from './Neodisha/FeaturedBox';
 import Second_Monitor from './Neodisha/Second_Monitor';
 
 
-
 function App() {
   return (
     <div class="App">
