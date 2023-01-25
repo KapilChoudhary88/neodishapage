@@ -1,11 +1,12 @@
-import React, { useEffect, useState } from 'react';
+import React, { useEffect } from 'react';
+// import { useState } from 'react';
 import AOS from 'aos';
 import 'aos/dist/aos.css';
 import video from '../images/animation2.mp4'
 
 
 
-function Second_Monitor() {
+function SecondMonitor() {
 
   useEffect(() =>{
     AOS.init({duration:2000});
@@ -57,4 +58,4 @@ function Second_Monitor() {
   );
 }
 
-export default Second_Monitor;
+export default SecondMonitor;

@@ -1,7 +1,8 @@
 // import React from "react";
-import Navbar from "./Navbar";
+// import Navbar from "./Navbar";
 import dashboard from "../images/dummy_video.mp4";
-import React, { useEffect, useState } from "react";
+import React, { useEffect } from "react";
+// import { useState } from "react";
 import AOS from "aos";
 import "aos/dist/aos.css";
 

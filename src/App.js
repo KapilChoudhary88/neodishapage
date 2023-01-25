@@ -5,7 +5,7 @@ import Feature from './Neodisha/Feature';
 import { NewFeature } from './Neodisha/NewFeature';
 import HowitWork from './Neodisha/HowitWork';
 import FeaturedBox from './Neodisha/FeaturedBox';
-import Second_Monitor from './Neodisha/Second_Monitor';
+import SecondMonitor from './Neodisha/SecondMonitor';
 
 
 function App() {
@@ -13,7 +13,7 @@ function App() {
     <div class="App">
       <Header />
       <Feature />
-      <Second_Monitor/>
+      <SecondMonitor/>
       <NewFeature></NewFeature>
       <HowitWork/>
       <FeaturedBox/>

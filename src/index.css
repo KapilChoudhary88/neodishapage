@@ -1211,6 +1211,7 @@ img {
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
+
   
 }
 .our_solution_category .solution_cards_box {
@@ -1220,6 +1221,7 @@ img {
   margin-top: 350px;
   height: 20px;
   width: 60px;
+
 }
 .solution_cards_box .solution_card {
   flex: 0 50%;
